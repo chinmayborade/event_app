@@ -32,6 +32,10 @@ dependencies:
   cupertino_icons: ^1.0.8
   flutter:
     sdk: flutter
+  google_fonts: ^6.2.1
+  hexcolor: ^3.0.1
+  iconsax: ^0.0.8
+  lottie: ^3.1.2
   smooth_page_indicator: ^1.2.0+3
 
 dev_dependencies:
