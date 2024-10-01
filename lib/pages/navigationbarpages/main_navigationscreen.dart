@@ -1,6 +1,6 @@
 import 'package:event_app/pages/navigationbarpages/alerts_page.dart';
 import 'package:event_app/pages/navigationbarpages/explore_page.dart';
-import 'package:event_app/pages/navigationbarpages/home_page.dart';
+import 'package:event_app/pages/navigationbarpages/home/home_page.dart';
 import 'package:event_app/pages/navigationbarpages/inbox_page.dart';
 import 'package:event_app/pages/navigationbarpages/menu_page.dart';
 import 'package:flutter/material.dart';

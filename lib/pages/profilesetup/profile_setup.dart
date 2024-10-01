@@ -1,4 +1,5 @@
-import 'package:event_app/pages/navigationbarpages/home_page.dart';
+import 'package:event_app/pages/navigationbarpages/home/home_page.dart';
+import 'package:event_app/pages/navigationbarpages/main_navigationscreen.dart';
 import 'package:flutter/material.dart';
 
 class EditProfileScreen extends StatelessWidget {
@@ -25,7 +26,8 @@ class EditProfileScreen extends StatelessWidget {
           child: Column(
             children: [
               ProfilePic(
-                image: 'https://i.postimg.cc/cCsYDjvj/user-2.png',
+                image:
+                    'https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
                 imageUploadBtnPress: () {},
               ),
               const Divider(),
@@ -155,7 +157,7 @@ class EditProfileScreen extends StatelessWidget {
                         Navigator.push(
                           context,
                           MaterialPageRoute(
-                            builder: (context) => HomePage(),
+                            builder: (context) => NavigationScreen(),
                           ),
                         );
                       },
